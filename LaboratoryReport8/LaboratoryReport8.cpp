@@ -107,7 +107,7 @@ void main()
 	SqList *L2;
 	L2 = (SqList *)malloc(sizeof(SqList));
 	create(L2);
-	selectSort(L2);
+	bubbleSort(L2);
 	display(L2);
 
 	system("pause");
